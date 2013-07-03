@@ -15,13 +15,27 @@ $title="Ping Status";
 $RRDs=array(
 	array("/var/lib/smokeping/network/maya.rrd", "maya.ngi.it", "green"),
 	array("/var/lib/smokeping/network/google.rrd", "google.it", "red"),
-	array("/var/lib/smokeping/network/switch.rrd", "switch.ch", "yellow")
+	array("/var/lib/smokeping/network/switch.rrd", "switch.ch", "yellow"),
+	array("/var/lib/smokeping/network/cisco.rrd", "cisco.com", "blue"),
+	array("/var/lib/smokeping/network/garr.rrd", "mi.mirror.garr.it", "purple")
 	);
 
 /* Avoid outputting weird stuff */
 error_reporting(0);
 
-/* Hic Sunt Leones */
+/* Hic Sunt Leones
+                          ,%%%%%%%,
+                        ,%%/\%%%%/\%,
+                       ,%%%\c "" J/%%,
+  %.                   %%%%/ d  b \%%%
+  `%%.         __      %%%%    _  |%%%
+   `%%      .-'  `"~--"`%%%%(=_Y_=)%%'
+    //    .'     `.     `%%%%`\7/%%%'____
+   ((    /         ;      `%%%%%%%'____)))
+   `.`--'         ,'   _,`-._____`-,   
+jgs  `"""`._____  `--,`          `)))
+                `~"-)))
+*/
 $i=0;
 /* Parse RRD List */
 foreach ($RRDs as $rrd) {
