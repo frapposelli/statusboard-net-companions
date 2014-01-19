@@ -28,3 +28,5 @@ More info on my WAN setup can be found here: <http://p2v.it/misc/show-your-netwo
 [StatusBoardLink]: http://www.panic.com/statusboard
 [PacketShaperLink]: http://www.bluecoat.com/products/packetshaper
 [StatusBoardPic]: https://dl.dropboxusercontent.com/u/57053024/screens/statusboard.PNG  "My StatusBoard Dash"
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/frapposelli/statusboard-net-companions/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
